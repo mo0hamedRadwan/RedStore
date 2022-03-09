@@ -1,0 +1,174 @@
+<!-- 
+    Tutorial Link : https://www.youtube.com/playlist?list=PLjwm_8O3suyM_2Lo9aAIw3HqjOPor8j9g
+    Image Link : https://drive.google.com/file/d/1GlfF1Gmd1o_pJgm-xKzyv3V4s3QnrVUC/view
+    Channel Name : Easy Tutorial
+
+    Author : Mohamed Radwan
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/FontAwesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>RedStore</title>
+</head>
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt=""></a>
+                </div>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img class="cart-img" src="images/cart.png" alt=""></a>
+                <i class="fa-solid fa-bars menu-icon" onclick="menutoggle()"></i>
+            </div>
+            
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Cart -->
+    <section class="cart">
+        <div class="container">
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="cart-info">
+                                <img src="images/buy-1.jpg" alt="">
+                                <div class="cart-details">
+                                    <p>Red Printed T-Shirt</p>
+                                    <p>Price : $50.00</p>
+                                    <a href="#">Remove</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="number" value="1"></td>
+                        <td>$50.00</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="cart-info">
+                                <img src="images/buy-2.jpg" alt="">
+                                <div class="cart-details">
+                                    <p>Red Printed T-Shirt</p>
+                                    <p>Price : $75.00</p>
+                                    <a href="#">Remove</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="number" value="1"></td>
+                        <td>$75.00</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="cart-info">
+                                <img src="images/buy-3.jpg" alt="">
+                                <div class="cart-details">
+                                    <p>Red Printed T-Shirt</p>
+                                    <p>Price : $100.00</p>
+                                    <a href="#">Remove</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="number" value="1"></td>
+                        <td>$100.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="total-price">
+                <table class="table-price">
+                    <tr>
+                        <td>SubTotal</td>
+                        <td>$200.00</td>
+                    </tr>
+                    <tr>
+                        <td>Taxes</td>
+                        <td>$30.00</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>$230.00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- End Cart -->
+
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png" alt="">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li><a href="#">Coupons</a></li>
+                            <li><a href="#">Blog Post</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                            <li><a href="#">Join Affiliate</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Youtube</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright &copy; 2022 By Mohamed Radwan</p>
+        </div>
+    </footer>
+
+    <script>
+        var Menu = document.getElementsByClassName("menu")[0];
+        Menu.style.maxHeight = "0px";
+        function menutoggle(){
+            if(Menu.style.maxHeight == "0px")
+                Menu.style.maxHeight = "100%";
+            else
+                Menu.style.maxHeight = "0px";
+        }
+    </script>
+
+</body>
+</html>

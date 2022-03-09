@@ -1,0 +1,192 @@
+<!-- 
+    Tutorial Link : https://www.youtube.com/playlist?list=PLjwm_8O3suyM_2Lo9aAIw3HqjOPor8j9g
+    Image Link : https://drive.google.com/file/d/1GlfF1Gmd1o_pJgm-xKzyv3V4s3QnrVUC/view
+    Channel Name : Easy Tutorial
+
+    Author : Mohamed Radwan
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/FontAwesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>RedStore</title>
+</head>
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt=""></a>
+                </div>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img class="cart-img" src="images/cart.png" alt=""></a>
+                <i class="fa-solid fa-bars menu-icon" onclick="menutoggle()"></i>
+            </div>
+            
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Features Products -->
+    <section class="products">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img id="lg-img" src="images/gallery-1.jpg" alt="" width="100%">
+                    <div class="small-imgs-row">
+                        <img class="sm-img active" src="images/gallery-1.jpg" alt="">
+                        <img class="sm-img" src="images/gallery-2.jpg" alt="">
+                        <img class="sm-img" src="images/gallery-3.jpg" alt="">
+                        <img class="sm-img" src="images/gallery-4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-2 single-product">
+                    <p>Home / T-shirt</p>
+                    <h2>Red Printed T-shirt by HRX</h2>
+                    <h4>$50.00</h4>
+                    <select>
+                        <option value="">Small</option>
+                        <option value="">Mediam</option>
+                        <option value="">Large</option>
+                        <option value="">XL</option>
+                        <option value="">XXL</option>
+                        <option value="">XXXL</option>
+                    </select>
+                    <input type="number" value="1">
+                    <a class="btn" href="#">Add to Cart</a>
+                    <h3>Product Details <i class="fa-solid fa-indent"></i></h3>
+                    <p class="product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eius exercitationem, explicabo repellat dicta harum doloremque. Dolor, laboriosam sint. Eligendi deleniti assumenda id error illo voluptatem tempore, iste magni sit?</p>
+                </div>
+            </div>
+            <h2>Products Related</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-9.jpg" alt="">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-10.jpg" alt="">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-11.jpg" alt="">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-12.jpg" alt="">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Features Products -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png" alt="">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li><a href="#">Coupons</a></li>
+                            <li><a href="#">Blog Post</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                            <li><a href="#">Join Affiliate</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Youtube</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright &copy; 2022 By Mohamed Radwan</p>
+        </div>
+    </footer>
+
+    <script>
+        var Menu = document.getElementsByClassName("menu")[0];
+        Menu.style.maxHeight = "0px";
+        function menutoggle(){
+            if(Menu.style.maxHeight == "0px")
+                Menu.style.maxHeight = "100%";
+            else
+                Menu.style.maxHeight = "0px";
+        }
+
+        var Image = document.getElementById("lg-img");
+        var Gallary = document.getElementsByClassName("sm-img");
+        for(let i = 0 ; i < Gallary.length ; i++){
+            Gallary[i].onclick = function(){
+                Image.src = Gallary[i].src;
+                document.querySelector('.active').classList.remove('active');
+                Gallary[i].classList.add('active');
+            }
+        }
+    </script>
+
+</body>
+</html>
